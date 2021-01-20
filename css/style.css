@@ -1,0 +1,126 @@
+body {
+    line-height: 1.5;
+    font-size: 100%;
+    font-family: 'Raleway', serif;
+    background-color: #f1f1f1;
+}
+
+header,
+footer {
+    background-color: #939597;
+    padding: 20px 0;
+}
+
+section {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    padding: 60px;
+}
+
+h1 {
+    width: 960px;
+    margin: 0 auto;
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+.description {
+    width: 420px;
+    padding: 20px 60px 0px 0px;
+    
+}
+
+.description p {
+    margin-left: 20px;
+}
+
+/* *********** form ************ */
+
+form {
+    width: 419px;
+    padding: 20px 0px 30px 60px;
+    border-left: 1px solid black;
+}
+
+.login-container {
+    margin-left: 20px;
+}
+
+label,
+input,
+fieldset a,
+button {
+    display: block;
+}
+
+input[type=checkbox],
+label[for=stay-logged-in] {
+    display: inline-block;
+}
+
+input[type=checkbox] {
+    margin: 5px 3px 18px 5px;
+}
+
+input[type=text],
+input[type=password] {
+    margin: 0px 0px 10px 5px;
+}
+
+fieldset a {
+    width: 116px;
+    margin-left: 5px;
+}
+
+label[for=stay-logged-in],
+fieldset a {
+    font-size: 14px;
+}
+
+legend {
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 5px;
+}
+
+button,
+button:hover {
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 183px;
+    margin-left: 5px;
+    margin-bottom: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-style: none;
+    background-color: #ccc;
+}
+
+button:hover {
+    /* box-shadow: 0 0 5px 0 #939597; */
+    background-color: #939597;
+}
+
+/* ************** footer *************** */
+footer {
+    text-align: center;
+    color: #fff;
+}
+
+footer li {
+    display: inline;
+    margin: 0 8px;
+}
